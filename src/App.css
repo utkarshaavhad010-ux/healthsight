@@ -1,0 +1,50 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f8ff;
+  color: #333;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons */
+
+button {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Images */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inputs */
+
+input,
+select,
+textarea {
+  outline: none;
+}
+
+/* Main App */
+
+.App {
+  min-height: 100vh;
+}
